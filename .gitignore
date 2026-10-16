@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local tooling (e.g. for JS tests or linting)
+node_modules/
+coverage/
+
+# Logs and temporary files
+*.log
+tmp/
