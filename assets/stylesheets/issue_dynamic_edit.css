@@ -44,11 +44,47 @@ body.controller-issues.action-show div.issue.details .iconEdit {
 	margin-left: 1ch;
 }
 
+body.controller-issues.action-show div.issue.details .iconCopy {
+	opacity: 0;
+	display: inline-block;
+	transition: opacity .3s ease-in, color .2s ease-in;
+	margin-left: .6ch;
+	cursor: pointer;
+	line-height: 1;
+	vertical-align: baseline;
+}
+
+body.controller-issues.action-show div.issue.details .iconCopy svg {
+	fill: currentColor;
+}
+
+body.controller-issues.action-show div.issue.details .iconCopy:hover,
+body.controller-issues.action-show div.issue.details .iconCopy:focus-visible {
+	color: #169;
+	outline: none;
+}
+
+body.controller-issues.action-show div.issue.details .iconCopy.copied {
+	color: #27ae60;
+}
+
+body.controller-issues.action-show div.issue.details .iconCopy.copyError {
+	color: #e74c3c;
+}
+
 body.controller-issues.action-show div.issue.details.showPencil .iconEdit,
 body.controller-issues.action-show div.issue.details .attribute:hover .iconEdit,
 body.controller-issues.action-show div.issue.details .description:hover .iconEdit,
 body.controller-issues.action-show div.issue.details div.subject:hover .iconEdit,
-body.controller-issues.action-show div.issue.details.showPencils:hover .iconEdit {
+body.controller-issues.action-show div.issue.details.showPencils:hover .iconEdit,
+body.controller-issues.action-show div.issue.details.showPencil .iconCopy,
+body.controller-issues.action-show div.issue.details .attribute:hover .iconCopy,
+body.controller-issues.action-show div.issue.details .description:hover .iconCopy,
+body.controller-issues.action-show div.issue.details div.subject:hover .iconCopy,
+body.controller-issues.action-show div.issue.details.showPencils:hover .iconCopy,
+body.controller-issues.action-show div.issue.details .iconCopy:focus-visible,
+body.controller-issues.action-show div.issue.details .iconCopy.copied,
+body.controller-issues.action-show div.issue.details .iconCopy.copyError {
 	opacity: 1;
 }
 
@@ -180,4 +216,29 @@ body.controller-issues.action-show .dynamicEditField .check_box_group {
 		height: auto;
 		padding: 10px;
 	}
+}
+
+body.controller-issues.action-show div.issue.details div.description .dynamicEditField {
+  display: none;
+  position: relative;
+  top: auto;
+  bottom: auto;
+  left: auto;
+  width: 100%;
+  margin: 6px 0 12px;
+  white-space: normal;
+  box-sizing: border-box;
+}
+body.controller-issues.action-show div.issue.details div.description .dynamicEditField.open {
+  display: block;
+  height: auto;
+  overflow: visible;
+  resize: none;
+}
+body.controller-issues.action-show div.issue.details div.description .dynamicEditField textarea {
+  min-height: 12em;
+  resize: vertical;
+}
+body.controller-issues.action-show div.issue.details div.description:has(> .dynamicEditField.open) > .wiki {
+  display: none;
 }

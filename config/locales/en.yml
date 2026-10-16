@@ -18,3 +18,5 @@ en:
   settings_excluded_field_placeholder: "Add tag and press Enter"
   settings_check_issue_update_conflict: "Check issue update conflict"
   settings_check_issue_update_conflict_explanation: "When enabled, plugin will check for concurrent updates and prevent overriding other users' changes"
+  ide_txt_copy_to_clipboard: "Copy to clipboard"
+  ide_txt_copied_to_clipboard: "Copied!"

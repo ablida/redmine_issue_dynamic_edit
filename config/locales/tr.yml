@@ -18,3 +18,5 @@ tr:
   settings_excluded_field_placeholder: "Etiket ekleyin ve Enter'a basın"
   settings_check_issue_update_conflict: "İşlem güncelleme çatışmasını kontrol et"
   settings_check_issue_update_conflict_explanation: "Etkinleştirildiğinde, eklenti eşzamanlı güncellemeleri kontrol eder ve diğer kullanıcıların değişikliklerini ezmeyi engeller"
+  ide_txt_copy_to_clipboard: "Panoya kopyala"
+  ide_txt_copied_to_clipboard: "Kopyalandı!"

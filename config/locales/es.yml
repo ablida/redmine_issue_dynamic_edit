@@ -18,3 +18,5 @@ es:
   settings_excluded_field_placeholder: "Añade una etiqueta y presiona Enter"
   settings_check_issue_update_conflict: "Verificar conflicto de actualización de incidencias"
   settings_check_issue_update_conflict_explanation: "Cuando está activado, el plugin comprobará actualizaciones concurrentes y evitará sobrescribir cambios hechos por otros usuarios"
+  ide_txt_copy_to_clipboard: "Copiar al portapapeles"
+  ide_txt_copied_to_clipboard: "¡Copiado!"

@@ -18,3 +18,5 @@ fr:
   settings_excluded_field_placeholder: "Ajouter un tag puis appuyer sur Entrée"
   settings_check_issue_update_conflict: "Vérifier les conflits de mise à jour de la demande"
   settings_check_issue_update_conflict_explanation: "Si activé, le plugin vérifie les mises à jour concurrentes et empêche d'écraser les modifications d'autres utilisateurs"
+  ide_txt_copy_to_clipboard: "Copier dans le presse-papiers"
+  ide_txt_copied_to_clipboard: "Copié !"
